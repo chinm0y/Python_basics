@@ -6,4 +6,8 @@ while i < len(thistuple):
   
   
   
-  
+  fruits = ("apple", "banana", "cherry")
+mytuple = fruits * 2
+
+print(mytuple)
+print(len(fruits))
