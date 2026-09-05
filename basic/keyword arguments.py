@@ -4,4 +4,10 @@ def my_function(animal, name):
 
 my_function(animal = "dog", name = "Buddy")
 
+#positional arguments
 
+def my_function(animal, name):
+  print("I have a", animal)
+  print("My", animal + "'s name is", name)
+
+my_function("dog", "Buddy")
