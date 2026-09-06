@@ -6,6 +6,8 @@ my_function("Emil", "Tobias", "Linus")
 
 #accessing individual arguments;
 
+print("=======================")
+
 def my_function (*args):
     print("type:", type(args))
     print("first argument:", args[0])
@@ -13,3 +15,4 @@ def my_function (*args):
     print("all arguments:", args)
     
 my_function("emil","tobius", "Linus")
+
