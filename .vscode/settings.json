@@ -1,4 +1,16 @@
 {
     "python-envs.defaultEnvManager": "ms-python.python:system",
-    "wolf.disableHotModeWarning": true
+    "wolf.disableHotModeWarning": true,
+    "python-envs.pythonProjects": [
+        {
+            "path": "basic",
+            "envManager": "ms-python.python:system",
+            "packageManager": "ms-python.python:pip"
+        },
+        {
+            "path": "little projects",
+            "envManager": "ms-python.python:system",
+            "packageManager": "ms-python.python:pip"
+        }
+    ]
 }
