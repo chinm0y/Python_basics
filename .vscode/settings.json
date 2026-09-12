@@ -11,6 +11,11 @@
             "path": "little projects",
             "envManager": "ms-python.python:system",
             "packageManager": "ms-python.python:pip"
+        },
+        {
+            "path": "little projects/___init___.py",
+            "envManager": "ms-python.python:system",
+            "packageManager": "ms-python.python:pip"
         }
     ]
 }
