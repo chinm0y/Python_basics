@@ -13,3 +13,17 @@ def otherfunction():
 
 print(myfunction())
 print(otherfunction())
+
+#now args arguments
+
+
+def changecase(func):
+  def myinner(*args, **kwargs):
+    return func(*args, **kwargs).upper()
+  return myinner
+
+@changecase
+def myfunction(name):
+  return "Hello " + name
+
+print(myfunction("Chinmoy"))
