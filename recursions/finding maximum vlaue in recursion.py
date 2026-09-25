@@ -7,3 +7,12 @@ def find_max(numbers):
 
 my_list = [3, 7, 2, 9, 1]
 print(find_max(my_list))
+
+
+
+
+#dept of recursion
+
+import sys
+sys.setrecursionlimit(2000)
+print(sys.getrecursionlimit())
